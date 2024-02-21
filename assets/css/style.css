@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  background: #1181f1;
+}
+body header nav {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+body header nav figure img {
+  width: 50px;
+}
+body header nav ul {
+  display: flex;
+}
+body header nav ul li {
+  margin: 5px 0px 5px 15px;
+  list-style: none;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+body main {
+  background: #dee2e6;
+}
+body main img {
+  width: 100%;
+}
+body footer {
+  background: #343a40;
+}
+
+.card {
+  background: rgba(250, 250, 250, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+  body header {
+    background: red;
+  }
+  body header nav ul {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

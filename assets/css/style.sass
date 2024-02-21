@@ -1,0 +1,39 @@
+$link: #fafafa
+body
+    margin: 0
+    padding: 0
+    header
+        background: #1181f1
+        nav
+            display: grid
+            grid-template-columns: 15% 85%
+            figure
+                img
+                    width: 50px
+            ul
+                display: flex
+                li
+                    margin: 5px 0px 5px 15px
+                    list-style: none
+                    a
+                        text-decoration: none
+                        color: $link
+
+    main
+        background: #dee2e6
+        img
+            width: 100%
+    footer
+        background: #343a40
+.card
+    background: rgba($link, 0.5)
+
+$xs: 600px
+$sm: 800px
+@media screen and (max-width: $xs)
+    body
+        header
+            background: red
+            nav
+                ul
+                    display: block
